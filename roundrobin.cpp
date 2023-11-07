@@ -64,6 +64,7 @@ int main()
                 }
             }
         }
+    }
 
         for (int i = 0; i < no_procs; i++)
         {
@@ -84,6 +85,6 @@ int main()
 
         cout << "Average Turnaround Time: " << avg_turnaround_time << endl;
         cout << "Average Waiting Time: " << avg_waiting_time << endl;
-    }
+    
     return 0;
 }
