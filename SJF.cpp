@@ -12,7 +12,7 @@ typedef struct Process
 void swap(Process arr[], int i, int j) {
     Process temp = arr[i];
     arr[i] = arr[j];
-    arr[j] = arr[i];
+    arr[j] = temp;
 }
 
 
