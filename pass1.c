@@ -253,12 +253,12 @@ int main()
     return 0;
 }
 
-// (AD, 01) (C, 200)
-// (IS, 04) 1 (S, 00)
-// (IS, 05) 2 (S, 01)
-// (IS, 01) 2 (S, 02)
-// (AD, 05)
-// (IS, 02) 3 (S, 03)
-// (DL, 2) (C, 2)
-// (DL, 2) (C, 2)
-// (AD, 02)
+// START 200
+// MOVER AREG, '=5'
+// MOVEM BREG, '=1'
+// ADD BREG, A
+// LTORG
+// SUB CREG, B
+// A DS 2
+// B DS 2
+// END
